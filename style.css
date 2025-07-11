@@ -47,14 +47,22 @@
     display: flex;
     /* margin: 115px 814px; */
     justify-content: space-between;
-    margin: 141px 159px;
+    /* margin: 141px 159px; */
+    margin: 0 auto;
+    height: 400px;
+    width: 1140px;
+    /* border: 2px solid black; */
+    margin-top: 40px;
 }
 .img1{
     
-    border: 10px solid transparent;
-  padding: 15px;
-   
-      border-image: 20% round; 
+    /* border: 10px solid transparent;
+  padding: 15px; */
+   /* border: 1px solid blue; */
+   border-radius: 1rem;
+      
+      
+
 }
 .mini-text{
 font-size: 24px;
@@ -67,6 +75,7 @@ color: #48474f;
     background-color: rgb(184, 184, 241);
     margin: auto;
     border-radius: 10px;
+    margin-top: 40px;
 }
 .head3{
     text-align: center;
@@ -80,3 +89,51 @@ color: #48474f;
     display: flex;
     justify-content: space-around;
 }
+/* card-section4 */
+
+.card1{
+    width: 360px;
+    height: 230px;
+    border: 1px solid black;
+    background-color: beige;
+    border-radius: 10px;
+}
+.mini-text11{
+    color: #48474f;
+    font-size: 20px;
+
+}
+.mini-text12{
+      color: #48474f;
+      font-size: 15px;
+
+}
+.kothin{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.section4{
+    
+   display: flex; 
+   margin-top: 30px;
+   
+  
+}
+.font13{
+    color: #252432;
+    font-size: 40px;
+    text-align: center;
+}
+.abcd{
+    
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+     
+    
