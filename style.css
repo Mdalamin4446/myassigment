@@ -91,13 +91,22 @@ color: #48474f;
 }
 /* card-section4 */
 
-.card1{
-    width: 360px;
+.card123-start{
+   
+    display: flex;
+    
+}
+.card123{
+     width: 360px;
     height: 230px;
     border: 1px solid black;
     background-color: beige;
     border-radius: 10px;
 }
+    
+    
+
+
 .mini-text11{
     color: #48474f;
     font-size: 20px;
@@ -116,7 +125,7 @@ color: #48474f;
 }
 .section4{
     
-   display: flex; 
+  
    margin-top: 30px;
    
   
@@ -128,12 +137,85 @@ color: #48474f;
 }
 .abcd{
     
-    width: 100%;
-    height: 350px;
+     width: 100%;
+    height: 350px; 
     /* border: 1px solid black; */
     display: flex;
+    justify-content: space-around;
+    
+}
+.bg-section{
+ 
+    /* border: 1px solid black; */
+    background-color:#FFFFFF ;
+    /* margin-bottom: 200px; */
     justify-content: center;
+  
 }
 
-     
+.mini-text1{
+    color: #48474f;
+      font-size: 15px;
+      text-align: center;
+
+}
+.btn12{
+    background-color: #4E47FF;
+   color: white;
+   padding:12px 36px;
+   border-radius: 10px;
+  margin-right: 200px;
+   
     
+   
+   
+  
+
+}
+.wc-img{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.content{
+    font-size: 60px;
+}
+   
+.from label{
+    font-size: 25px;
+
+}
+.contenter{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+input [type="text"]{
+    height: 64px;
+    border-radius: 10px;
+    padding: 10px 20px;
+   
+}
+.footer{
+    text-align: center;
+}
+ul li {
+      list-style: none;
+}
+   li a {
+     text-decoration: none;
+     font-size: 24px;
+     color: #8987A1;
+
+   }
+    .a-tag{
+        display: flex;
+        justify-content: space-around;
+        /* gap: 50px; */
+    }
+    .logo12{
+        color:#4E47FF ;
+        font-size: 80px;
+    }
+    
+
